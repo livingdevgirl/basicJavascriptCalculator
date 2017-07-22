@@ -1,0 +1,45 @@
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator{
+  align-self: center;
+
+}
+
+
+input, button{
+  background-color: #64b255;
+  width: 5em;
+  height: 5em;
+  font-size: 24px;
+  color: white;
+  }
+
+button:focus{
+  background-color: #83c178;
+  color: #42613b;
+  border: 1px solid black;
+}
+
+input:focus{
+  background-color: #83c178;
+  color: #42613b;
+
+}
+
+#add, #multiply, #divide, #subtract{
+      background-color: #83c178;
+      color: #42613b;
+  }
+
+  #solutionWindow{
+    width: 15.1em;
+    height: 4.9em;
+    background-color: #83c167;
+    color: #42613b;
+    text-align: right;
+    font-size: 24px;
+  }
